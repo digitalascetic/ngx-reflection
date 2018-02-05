@@ -1,6 +1,6 @@
 {
   "name": "ngx-reflection",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "bundles/ngx-reflection.umd.min.js",
   "scripts": {
