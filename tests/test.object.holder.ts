@@ -1,5 +1,5 @@
 import {TestObject} from './test.object';
-import {Type} from '../index';
+import {Type} from '../src';
 
 export class TestObjectHolder {
 

@@ -4,9 +4,6 @@ import {ReflectionService} from './reflection.service';
  * Defines Type for a property, it's safer to use a function
  * that returns the type as the argument instead of the type itself
  *
- * @param {Function} type
- * @returns {(target: any, propertyKey: string) => void}
- * @constructor
  */
 export function Type(type: Function | null = null) {
   return function (target: any, propertyKey: string) {

@@ -1,4 +1,5 @@
-import {Type} from '../index';
+import {Type} from '../src';
+
 
 export class TestObject {
 
