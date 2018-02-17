@@ -1,5 +1,5 @@
 {
-  "name": "ngx-reflection",
+  "name": "@digitalascetic/ngx-reflection",
   "version": "1.0.2",
   "license": "MIT",
   "main": "bundles/ngx-reflection.umd.min.js",
