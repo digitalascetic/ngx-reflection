@@ -1,4 +1,4 @@
-import {ReflectionService} from '../lib';
+import {ReflectionService} from '../index';
 import {TestObject} from './test.object';
 import {TestObjectHolder} from './test.object.holder';
 import {ChildTestObject} from './child.test.object';

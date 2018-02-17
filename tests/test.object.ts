@@ -1,4 +1,4 @@
-import {Type} from '../lib';
+import {Type} from '../index';
 
 export class TestObject {
 

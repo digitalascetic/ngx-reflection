@@ -7,7 +7,7 @@ Provides ```ReflectionService``` injectable service and ```@Type()``` annotation
 
 ## Build
 
-Run `npm run build` to build the project.
+Run `npm runpm run buildn build` to build the project.
 
 ## Running unit tests
 

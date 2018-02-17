@@ -1,8 +1,8 @@
 {
   "name": "@digitalascetic/ngx-reflection",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
-  "main": "bundles/ngx-reflection.umd.min.js",
+  "main": "index.ts",
   "scripts": {
     "test": "karma start",
     "transpile": "ngc",
