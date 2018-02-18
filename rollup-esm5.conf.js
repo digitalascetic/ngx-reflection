@@ -3,5 +3,6 @@ export default {
   output: {
     file: 'dist/esm5/ngx-reflection.js',
     format: 'es'
-  }
+  },
+  external: ['@angular/core']
 }

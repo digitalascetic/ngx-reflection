@@ -18,7 +18,7 @@
     "move:assets": "cp -r tmp/esm2015/*.d.ts tmp/esm2015/src tmp/esm2015/*.json package.json README.md dist/ && rm dist/src/*.js",
     "test": "karma start",
     "clean": "rm -rf dist/ && rm -rf tmp/",
-    "publish-dist": "npm run build && npm publish dist --access public"
+    "publish:dist": "npm run build && npm publish dist --access public"
   },
   "keywords": [
     "angular5",

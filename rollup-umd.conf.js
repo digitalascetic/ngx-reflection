@@ -5,6 +5,7 @@ export default {
     format: 'umd'
   },
   name: 'ngx-reflection',
+  external: ['@angular/core'],
   globals: {
     '@angular/core': 'ng.core'
   }
