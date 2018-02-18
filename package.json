@@ -1,10 +1,10 @@
 {
   "name": "@digitalascetic/ngx-reflection",
-  "version": "1.0.5",
+  "version": "1.0.9",
   "license": "MIT",
-  "main": "./bundles/nfx-reflection.umd.js",
-  "module": "./esm5/nfx-reflection.js",
-  "es2015": "./esm2015/nfx-reflection.js",
+  "main": "./bundles/ngx-reflection.umd.js",
+  "module": "./esm5/ngx-reflection.js",
+  "es2015": "./esm2015/ngx-reflection.js",
   "typings": "./ngx-reflection.d.ts",
   "scripts": {
     "build": "npm run clean && npm run build:inline && npm run build:esm2015 && npm run build:fesm2015 && npm run build:esm5 && npm run build:fesm5 && npm run build:umd && npm run build:min && npm run move:assets",
@@ -17,7 +17,8 @@
     "build:min": "uglifyjs dist/bundles/ngx-reflection.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/ngx-reflection.umd.min.js",
     "move:assets": "cp -r tmp/esm2015/*.d.ts tmp/esm2015/src tmp/esm2015/*.json package.json README.md dist/ && rm dist/src/*.js",
     "test": "karma start",
-    "clean": "rm -rf dist/ && rm -rf tmp/"
+    "clean": "rm -rf dist/ && rm -rf tmp/",
+    "publish-dist": "npm run build && npm publish dist --access public"
   },
   "keywords": [
     "angular5",
