@@ -1,6 +1,7 @@
 {
   "name": "@digitalascetic/ngx-reflection",
-  "version": "1.0.9",
+  "version": "1.0.10",
+  "description": "Typescript reflection service",
   "license": "MIT",
   "main": "./bundles/ngx-reflection.umd.js",
   "module": "./esm5/ngx-reflection.js",
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "@angular/cli": "^1.6.5",
+    "ssri": "^5.2.2",
     "@angular/compiler": "^5.1.2",
     "@angular/compiler-cli": "^5.1.2",
     "@angular-devkit/core": "^0.0.29",
