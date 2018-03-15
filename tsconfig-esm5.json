@@ -8,7 +8,7 @@
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
     "skipTemplateCodeGen": true,
-    "flatModuleId": "ngx-reflection",
+    "flatModuleId": "@digitalascetic/ngx-reflection",
     "flatModuleOutFile": "ngx-reflection.js"
   }
 }

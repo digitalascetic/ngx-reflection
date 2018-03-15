@@ -4,7 +4,7 @@ export default {
     file: 'dist/bundles/ngx-reflection.umd.js',
     format: 'umd'
   },
-  name: 'ngx-reflection',
+  name: 'ng.ngx-reflection',
   external: ['@angular/core'],
   globals: {
     '@angular/core': 'ng.core'
