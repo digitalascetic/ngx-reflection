@@ -15,5 +15,10 @@ export function Type(type: Function | null = null) {
 // allows to reference as Type types not still defined (loaded)
 // See https://github.com/Microsoft/TypeScript/issues/4521
 
-
+/**
+ * Simple method to avoid use arrow function into decorator @Type (AOT requirement)
+ */
+export function returnFunctionType<T>(object: T) {
+    return function () { return object; };
+}
 
