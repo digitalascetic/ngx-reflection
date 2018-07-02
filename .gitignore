@@ -43,3 +43,4 @@ testem.log
 Thumbs.db
 
 ngx-reflection.iml
+package-lock.json
