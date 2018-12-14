@@ -1,7 +1,7 @@
 import {TestObject} from './test.object';
 import {TestObjectHolder} from './test.object.holder';
 import {ChildTestObject} from './child.test.object';
-import {ReflectionService} from '../src';
+import {ReflectionService} from './reflection.service';
 
 describe('Metadata tests', () => {
 

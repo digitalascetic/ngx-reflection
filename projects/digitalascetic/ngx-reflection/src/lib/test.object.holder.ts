@@ -1,5 +1,5 @@
 import {TestObject} from './test.object';
-import {Type} from '../src';
+import {Type} from './metadata.metadata';
 
 export class TestObjectHolder {
 
