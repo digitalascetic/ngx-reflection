@@ -1,9 +1,9 @@
-import {Injectable} from '@angular/core';
+import {Injectable} from "@angular/core";
 
 @Injectable()
 export class ReflectionService {
 
-  public static classProperties = new Map<Function, Map<string, Function | null>>();
+  public static classProperties = new WeakMap<Function, Map<string, Function | null>>();
 
   public static addPropertyType(clazz: Function, propertyName: string, type: Function | null) {
 
@@ -37,10 +37,13 @@ export class ReflectionService {
         if (!type) {
           return null;
         } else {
+          /*
           if (type.name) {
             return type;
           }
+          */
           return type();
+
         }
       }
     }
